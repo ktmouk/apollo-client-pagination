@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next -p 3434",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "3.13.5",
+    "graphql": "^16.9.0",
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106"
+  },
+  "packageManager": "pnpm@8.15.4+sha1.c85a4305534f76d461407b59277b954bac97b5c4",
+  "devDependencies": {
+    "@types/node": "22.13.13",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "typescript": "5.8.2"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@19.0.0-rc.1"
+  }
+}
